@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* http://meyerweb.com/eric/tools/css/reset/ 
 
    v2.0 | 20110126
@@ -138,43 +138,125 @@ table {
 
 body {
     background-image: url(fotos/fundo.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-
+    
 }
 
 .conteudo{
+  align-items: center;  
+  height: 100vh;   
 
 }
 
 .cabecalho {
+    padding-top: 31px;
+    display: flex;  
+    justify-content: space-between;
+    
+}
+
+.menu{
+    display: flex;
+    padding-left: 76px;
     font-family: "Poppins";
     font-weight: 300;
     font-size: 16px;
     color: white;
-    padding-top: 31px;
+    width: 530px;
+    height: 39px;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes-sociais{
+    width: 136px;
+    height: 25px;
     display: flex;
+    padding-right: 87px;
+    justify-content: space-between;
+    margin: 1px;
+    align-items: center;
 }
 
-.menu{
-
-}
 
 .botoes{
-    font-family: "Poppins";
-    font-weight: 400;
-    font-size: 16px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 50px;
+      
 }
 
 .botao1{
-    background-color: #AB2323;
-    border: none;
-    width: 232px;
-    height: 53px;
+    text-decoration: none;
     text-align: center;
-    margin-top: 15px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #AB2323;
+    border: none ;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-left: 38px;
+    padding-right: 38px;
+    margin-right: 9px;
+    text-decoration: none;
+    color: white;
     
 }
 
+.resumo{
+    font-family:"Open Sans";
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    width: 474px;
+}
+
+.direita{
+ padding-right: 87px;
+ padding-top: 91px;
+   
+}
+
+.esquerda{
+    padding-top: 73px;
+    padding-left: 73px;
+}
+
+.linha{
+    display:flex;
+    justify-content: space-between;
+}
+
+.botao2{
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    background-color: none;
+    border: 1px solid green;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-left: 31px;
+    padding-right: 32px;
+    text-decoration:none;
+    color: white;
+}
+
+.home{
+    color: white;
+    text-decoration: none;
+}
+.historia{
+    color: white;
+    text-decoration: none;
+}
+.wallpaper{
+    color: white;
+    text-decoration: none;
+}
+.trailer{
+    color: white;
+    text-decoration: none;
+}
